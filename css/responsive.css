@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@media only screen and ( max-width: 1280px ) {
+    .cartpage .main .mainwraper .cart-item{width: 64%}
+    .cartpage .main .mainwraper .cart-total{width: 34%}
+    .cartpage .main .mainwraper .cart-item table tbody tr td form .Quantity{width: 64px}
+    .checkoutpage .main .mainwraper .Checkout-form{width: 64%}
+    .checkoutpage .main .mainwraper .cart-total{width: 34%}
+
+}
+@media only screen and ( max-width: 1024px ) {
+    .main .mainwraper .grid{column-count: 2;}
+    .footer .ftrwrap .ftrrgt .ftrnav li+li{margin-left: 60px}
+    .Subscribe{padding: 75px 0}
+    .Subscribe .subscribewrap{width:95%}
+    .subscribewrap .Subscribetext h3{font-size: 30px}
+    .subscribewrap .Subscribetext p{font-size: 14px}
+    .footer{padding: 65px 0}
+    .shoppage .containt-wrap .main{padding: 50px 15px}
+    .shoppage .main .mainwraper .maintopbar .selector form{margin-top: 30px}
+    .shoppage .containt-wrap .main .grid .item{width: 100%}
+    .shoppage .containt-wrap .main .grid li+li{margin-top: 20px}
+    .productpage .main{padding: 80px 0}
+    .productpage .main .mainwraper .productdtl .dtl h3{font-size: 24px;margin-top: 5px}
+    .productpage .main .mainwraper .productdtl .dtl .cart-review p{font-size: 12px}
+    .cartpage .main .mainwraper .cart-item table tbody tr td{width: 55%}
+    .cartpage .main .mainwraper .cart-item table tbody tr td.cartprdctname a h3{font-size: 14px}
+    .cartpage .main .mainwraper .cart-item table tbody tr td form{width: max-content}
+    .cartpage .main .mainwraper .cart-total li.checkoutbtn a{padding: 12px 45px}
+    .checkoutpage .main{padding:120px 0 80px}
+    .checkoutpage .main .mainwraper .cart-total li.checkoutbtn a{padding: 12px 45px}
+}
+@media only screen and ( max-width: 980px ) {
+    .main .mainwraper .grid .item .pdctwrap .imgcaption{top: 20px}
+    .main .mainwraper .grid .item .pdctwrap .imgcaption h3{font-size: 20px;line-height: 1}
+    .productpage .main{padding: 50px 0}
+    .productpage .main .mainwraper .productimgsec{width: 100%}
+    .productpage .main .mainwraper .productdtl{width: 100%;padding: 0 20px;margin-top: 5%}
+    .slick-slider img{width: 100%;}
+    .slick-list{padding-top: 15px!important}
+    .slick-slider.slick-list img{width:90%;aspect-ratio: 1/0.8;object-fit:cover;}
+    .productpage .main .mainwraper .productdtl .dtl .cart-review p{font-size: 16px}
+    .productpage .main .mainwraper .productdtl .dtl form input.pdctbtn{padding: 20px 100px}
+    .cartpage .main{padding: 20px 0 40px}
+    .cartpage .main .mainwraper .cart-item{width: 100%}
+    .cartpage .main .mainwraper .cart-total{width: 100%;margin-top: 5%}
+    .checkoutpage .main{padding: 30px 0}
+    .checkoutpage .main .mainwraper .Checkout-form{width: 100%;}
+    .checkoutpage .main .mainwraper .cart-total{width: 100%;margin-top: 20px}
+    .Subscribe .subscribewrap{width: 80%}
+    .subscribewrap .Subscribetext{width: 100%;margin: 0 auto;text-align: center;}
+    .subscribewrap .Subscribebtn{width: 80%;margin: 8% auto 0;}
+
+
+}
+@media only screen and ( max-width: 800px ) {
+    .containt-wrap .headersec{width: 35%}
+    .headersec button{width: 100%;height:40px;font-size: 14px}
+    .headersec .socialmedia li+li{margin-left: 35px}
+    .containt-wrap .main{width: calc(100% - 35%);}
+    .shoppage .containt-wrap .main{width: calc(100% - 269px);}
+    .shoppage .containt-wrap .main .grid li+li{margin-top:0}
+    .shoppage .containt-wrap .main .grid .item{width:48%;}
+    .main .mainwraper .grid .item .pdctwrap img{width: 100%;}
+    .main .mainwraper .grid .item .pdctwrap .cimg img{width: auto;}
+    .shoppage .categorysec{width: 100%;order: 3;display:grid;justify-content: space-between;padding: 50px 0; grid-template-columns:1fr 1fr 1fr;grid-template-rows:1fr 1fr}
+    .shoppage .categorysec .category{grid-row: span 2;}
+    .shoppage .categorysec .brandlist{grid-row: span 2;}
+    .shoppage .categorysec .colorselect{grid-column:3 / span 1}
+    .shoppage .categorysec .pricefilter{width: 100%;grid-row: 2 /span 1;grid-column: 3 / span 1}
+    .shoppage .categorysec .category ul{margin-top: 0}
+    .shoppage .categorysec .brandlist{margin-top: 0}
+    .shoppage .categorysec .brandlist ul{margin-top: 0}
+    .shoppage .categorysec .colorselect{margin-top: 0}
+    .shoppage .categorysec .pricefilter{width:100%}
+    .shoppage .categorysec .pricefilter .slider{margin-top: 10px}
+    .slider-container span{font-size: 16px}
+    .footer .ftrwrap .ftrrgt .ftrnav li+li{margin-left: 45px}
+
+}
+@media only screen and ( max-width: 768px ) {
+}
+@media only screen and ( max-width: 736px ) {
+}
+@media only screen and ( max-width: 667px ) {
+    .containt-wrap .main{width: 100%}
+    .containt .mobileanv{display: block;position: relative;top: 0;left: 0;width: 100%;padding: 20px 20px;box-sizing: border-box;background: #fff}
+    .mobileanv.fixed{position: fixed;top: 0;box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);animation:fadedown .3s linear;z-index: 10;}
+    .mobileanv.fixed.isactive{position: relative;}
+    @keyframes fadedown{to{transform: translateY(0);}from{transform: translateY(-100%);}}
+    .containt-wrap .headersec{position: fixed; left: 0; top: 0; transform: translateX(-100%); transition: all .3s linear;z-index: 4;width: 50%}
+    .containt-wrap .headersec.isactive{transform: translateX(0);z-index: 4;width: 50%;overflow: scroll;height: 100vh}
+    .containt-wrap .headersec.isactive.logo{width: 65%;margin: 0 auto;}
+    #toggleButton.isactive{width: 50px;height:29px;position: relative;z-index: 9999;}
+    #toggleButton.isactive .line2{display: none;}
+    #toggleButton.isactive .line1{rotate: 45deg;position: absolute;top: 50%;transition: .3s}
+    #toggleButton.isactive .line3{rotate: -45deg;position: absolute;bottom: 40%;transition: .3s}
+    
+    .shoppage .categorysec{padding: 35px 0}
+    .shoppage .containt-wrap .main{width: 100%}
+    .productpage .main .mainwraper{margin-top: 2%}
+    .productpage .main .mainwraper .productdtl .dtl form input.pdctbtn{padding: 20px 75px}
+    .cartpage .main .mainwraper .cart-item table{width: 100%}
+    .footer .ftrwrap .ftrlft{width: 80%;margin: 0 auto;}
+    .ftrwrap .ftrlft .ftrlogo{width: 25%}
+    .footer .ftrwrap .ftrrgt{width: 100%;margin: 0 auto;padding: 25px 0;box-sizing: border-box;}
+    .footer .ftrwrap .ftrrgt .ftrnav{float: unset;text-align: center;}
+    .ftrwrap p{width: 100%}
+}
+@media only screen and ( max-width: 640px ) {
+}
+@media only screen and ( max-width: 600px ) {
+}
+@media only screen and ( max-width: 568px ) {
+    .main .mainwraper .grid{column-count: 1}
+    .Subscribe .subscribewrap{width: 90%}
+    .footer .ftrwrap .ftrrgt .ftrnav li a{font-size: 12px}
+}
+@media only screen and ( max-width: 480px ) {
+
+    .containt-wrap .headersec{width: 80%}
+    .containt-wrap .headersec.isactive{width: 80%;}
+    .logo{width: 80%;margin: 0 auto;}
+    .containt .mobileanv{padding: 15px 20px}
+    .containt .mobileanv .mobileanvwrap .mobilelogo{width: 23%}
+    .containt .mobileanv .mobileanvwrap .menubtn span{width: 40px}
+    .shoppage .containt-wrap .main .grid .item{width: 100%}
+    .shoppage .categorysec{grid-template-columns:1fr 1fr;grid-template-rows:unset;gap: 20px}
+    .shoppage .categorysec .category{grid-row:inherit;}
+    .shoppage .categorysec .brandlist{grid-row: inherit;}
+    .shoppage .categorysec .colorselect{grid-column:inherit;}
+    .shoppage .categorysec .pricefilter{grid-row: inherit;grid-column: inherit;}
+    .productpage .main {padding: 25px 0}
+    .productpage .main .breadcrumb{font-size: 14px}
+    .productpage .main .breadcrumb a{font-size:14px;}
+    .productpage .main .mainwraper .productdtl .dtl form{margin-top: 3%}
+    .productpage .main .mainwraper .productdtl .dtl form .Quantity{width: 75px;padding: 10px 20px}
+    .productpage .main .mainwraper .productdtl .dtl form .Quantity label{font-size: 14px}
+    .productpage .main .mainwraper .productdtl .dtl form .Quantity input{font-size: 14px;width: 35px}
+    .productpage .main .mainwraper .productdtl .dtl form input.pdctbtn{padding: 12px 50px;font-size: 14px;margin-top: 5%}
+    .checkoutpage .main .mainwraper .Checkout-form form li.name{display: block;}
+    .checkoutpage .main .mainwraper .Checkout-form form li input{box-sizing: border-box;}
+    .checkoutpage .main .mainwraper .Checkout-form form li.name input.lname{margin-top: 20px}
+    .checkoutpage .main .mainwraper .Checkout-form form li.zipinput{display: block;}
+    .checkoutpage .main .mainwraper .Checkout-form form li.zipinput input.phone{margin-top: 20px}
+    .Subscribe{padding: 50px 0}
+    .subscribewrap .Subscribetext h3{font-size:25px}
+    .subscribewrap .Subscribetext p{font-size: 12px}
+    .subscribewrap .Subscribebtn{width: 90%}
+    .footer{padding: 40px 0}
+/*#toggleButton.isactive .line1{top: 40px;}*/
+/*#toggleButton.isactive .line3{top: 30px;}*/
+}
+@media only screen and ( max-width: 414px ) {
+    .containt .mobileanv{padding: 8px 20px}
+    .containt .mobileanv .mobileanvwrap .mobilelogo{width: 25%}
+    #toggleButton.isactive{position: fixed;right: 0;}
+    .containt .mobileanv .isactive{}
+    .containt-wrap .headersec.isactive{width: 100%;}
+    .productpage .main .mainwraper .productdtl .dtl .cart-review p{font-size: 14px}
+    .productpage .main .mainwraper .productdtl .dtl p.para{margin-top: 15px;font-size: 14px;line-height: 1.5}
+    .checkoutpage .main .mainwraper .Checkout-form form li input{font-size: 14px}
+    .checkoutpage .main .mainwraper .Checkout-form form li select{font-size: 14px}
+    .checkoutpage .main .mainwraper .Checkout-form form li textarea{font-size: 14px}
+    .footer .ftrwrap .ftrrgt{padding: 15px 0}
+    .footer .ftrwrap .ftrrgt .ftrnav li+li{margin-left: 8%}
+}
+@media only screen and ( max-width: 384px ) {
+    .shoppage .containt-wrap .main{padding: 10px 15px}
+    .shoppage .main .mainwraper .maintopbar .selector form{margin-top: 15px}
+    .shoppage .containt-wrap .main .grid{margin-top: 30px}
+    .Subscribebtn form input{height: 35px;font-size: 14px}
+    .cartpage .main .mainwraper .cart-item table tbody tr td{width: 70%}
+}
+@media only screen and ( max-width: 375px ) {
+}
+@media only screen and ( max-width: 360px ) {
+    .cartpage .main .mainwraper .cart-item table tbody tr td.cartprdctimg{width: 100%}
+    .checkoutpage .main{padding: 0}
+    .checkoutpage .main .mainwraper{margin-top: 0}
+    .subscribewrap .Subscribetext h3{font-size: 20px}
+}
+@media only screen and ( max-width: 320px ) {
+
+}
+
